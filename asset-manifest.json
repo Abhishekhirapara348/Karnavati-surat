@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Karnavati-surat/static/css/main.9990ed30.css",
+    "main.js": "/Karnavati-surat/static/js/main.ce78f4ba.js",
+    "static/js/787.3789d444.chunk.js": "/Karnavati-surat/static/js/787.3789d444.chunk.js",
+    "static/media/heroimg.png": "/Karnavati-surat/static/media/heroimg.7a9071113fc8ba0f48c3.png",
+    "index.html": "/Karnavati-surat/index.html",
+    "main.9990ed30.css.map": "/Karnavati-surat/static/css/main.9990ed30.css.map",
+    "main.ce78f4ba.js.map": "/Karnavati-surat/static/js/main.ce78f4ba.js.map",
+    "787.3789d444.chunk.js.map": "/Karnavati-surat/static/js/787.3789d444.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9990ed30.css",
+    "static/js/main.ce78f4ba.js"
+  ]
+}
