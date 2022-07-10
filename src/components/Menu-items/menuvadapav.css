@@ -1,0 +1,139 @@
+.vadapavcontainer {
+  max-width: 100%;
+  margin-block: 3rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+/* card css ############################################################################### */
+.vadacard1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 1rem;
+  padding-inline: 1rem;
+  border: 1px solid #a7a7a7;
+  border-radius: 0.5rem;
+}
+.half1card {
+  height: 50%;
+}
+.half2card {
+  height: 50%;
+}
+.name {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  height: 2rem;
+}
+.itemname {
+  font-size: clamp(1.5rem, 0.1592rem + 7.1508vw, 2.3rem);
+  font-family: "fjalla one", sans-serif;
+  color: #00671d;
+  font-weight: 200;
+  line-height: 100%;
+}
+
+.infovadapav {
+  font-size: clamp(0.8rem, 0.1296rem + 3.5754vw, 1.2rem);
+  font-family: "inter", sans-serif;
+  text-align: left;
+  font-weight: 200;
+}
+.orderarea {
+  display: flex;
+  margin-top: 0%;
+  align-items: center;
+  height: clamp(2rem, 0.324rem + 8.9385vw, 3rem);
+  justify-content: space-between;
+}
+
+.vegicon {
+  width: clamp(1.3rem, 0.1268rem + 6.257vw, 2rem);
+}
+.zomotobtn {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 70%;
+  padding-inline: clamp(0.4rem, -0.6056rem + 5.3631vw, 1rem);
+  font-size: clamp(0.9rem, 0.2296rem + 3.5754vw, 1.3rem);
+  gap: clamp(0.8rem, 0.4648rem + 1.7877vw, 1rem);
+  border: none;
+  background-color: #e23744;
+  justify-content: center;
+  color: #fff;
+  border-radius: 0.3rem;
+}
+.zomotoimg {
+  width: clamp(3rem, -0.352rem + 17.8771vw, 5rem);
+}
+.price {
+  background-color: #00671d;
+  border-radius: 0.3rem;
+  height: 100%;
+  width: 25%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.price-tag {
+  font-size: clamp(1rem, 0.162rem + 4.4693vw, 1.5rem);
+  font-family: "fjalla one", sans-serif;
+  color: #fff;
+  font-weight: 200;
+  line-height: 0%;
+}
+/* half2card css end ############################################################################### */
+
+/* card images ################################################################################# */
+.card1img {
+  max-width: 80%;
+}
+.card3img {
+  max-width: 70%;
+}
+/* card images end ################################################################### */
+
+@media only screen and (min-width: 500px) and (max-width: 818px) {
+  .vadapavcontainer {
+    padding-inline: clamp(0rem, -15.7233rem + 50.3145vw, 10rem);
+  }
+}
+
+@media only screen and (min-width: 819px) {
+  .vadapavcontainer {
+    max-width: 100%;
+    margin-block: 3rem;
+    display: grid;
+    gap: 2rem;
+    padding-inline: clamp(0rem, -18.1664rem + 35.4898vw, 12rem);
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .itemname {
+    font-size: clamp(1.75rem, 1.0667rem + 1.3333vw, 2.2rem);
+  }
+  .vegicon {
+    width: clamp(1.5rem, 0.8926rem + 1.1852vw, 1.9rem);
+  }
+  .infovadapav {
+    font-size: clamp(1rem, 0.8481rem + 0.2963vw, 1.1rem);
+  }
+  .zomotobtn {
+    padding-inline: clamp(0.3rem, -0.0037rem + 0.5926vw, 0.5rem);
+    font-size: clamp(1.2rem, 0.7444rem + 0.8889vw, 1.5rem);
+    gap: 0.4rem;
+  }
+  .zomotoimg {
+    width: clamp(4rem, 2.4815rem + 2.963vw, 5rem);
+  }
+  .orderarea {
+    height: clamp(2.5rem, 1.7407rem + 1.4815vw, 3rem);
+  }
+}

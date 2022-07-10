@@ -1,0 +1,166 @@
+.herosection {
+  padding: 1rem;
+}
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.welcome {
+  font-size: 1.3rem;
+  font-family: "inter", sans-serif;
+  text-align: left;
+  line-height: 0%;
+  color: #00671d;
+}
+.shopname {
+  font-size: 2.6rem;
+  font-family: "fjalla one", sans-serif;
+  font-weight: 200;
+  text-align: left;
+  line-height: 0%;
+}
+.spansurat {
+  color: #00671d;
+}
+.tagline {
+  font-size: 1.5rem;
+  font-family: "satisfy", cursive;
+  text-align: left;
+  margin-top: 0%;
+  font-weight: 200;
+}
+.menuarea {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.expolremenubtn {
+  font-size: 1.2rem;
+  font-family: "inter", sans-serif;
+  font-weight: bold;
+  text-align: left;
+  align-items: center;
+  display: flex;
+  padding: 0.8rem 1.3rem;
+  border-radius: 0.4rem;
+  border: none;
+  background-color: #fbbc04;
+  transition: 0.3s;
+}
+.expolremenubtn:hover {
+  color: #fbbc04;
+  border: 1px solid #fbbc04;
+  background: none;
+}
+.bgimgkarnavati {
+  margin-top: 2rem;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+  .herobgimg {
+    display: none;
+  }
+  .heroimg {
+    display: none;
+  }
+  .welcome {
+    font-size: 1rem;
+    color: #000;
+  }
+  .shopname {
+    font-size: clamp(1.7rem, -0.1436rem + 9.8324vw, 2.8rem);
+    color: #fbbc04;
+  }
+  .spansurat {
+    color: #00671d;
+  }
+  .tagline {
+    font-size: clamp(1rem, -0.1732rem + 6.257vw, 1.7rem);
+    color: #000;
+  }
+  .expolremenubtn {
+    font-size: clamp(
+      0.8rem,
+      0.1296rem + 3.5754vw,
+      1.2rem
+    ); /* padding: 0.8rem 1.3rem; */
+    padding-block: 0.5rem;
+    border-radius: 0.2rem;
+    padding-inline: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 820px) {
+  .hero-container {
+    padding-inline: 1rem;
+    height: clamp(18.4375rem, 4.9375rem + 45vw, 28rem);
+    padding-top: 2rem;
+  }
+  .bgimgkarnavati {
+    display: none;
+  }
+  .herobg {
+    background: url("/public/images/heroimg.png");
+    background-size: 100% 100%;
+  }
+  .welcome {
+    font-size: clamp(1.3rem, -1.1rem + 8vw, 2rem);
+    color: #fff;
+  }
+  .shopname {
+    font-size: clamp(2.6rem, -0.2235rem + 9.4118vw, 4.6rem);
+    color: #fbbc04;
+  }
+  .spansurat {
+    color: #fff;
+  }
+  .tagline {
+    font-size: clamp(1.5rem, 0.0882rem + 4.7059vw, 2.5rem);
+    color: #fff;
+  }
+  .expolremenubtn {
+    font-size: clamp(1.2rem, 0.6353rem + 1.8824vw, 1.6rem);
+  }
+}
+
+@media only screen and (min-width: 820px) {
+  .herosection {
+    padding-inline: 5rem;
+  }
+  .hero-container {
+    padding-inline: clamp(1rem, -6.5926rem + 14.8148vw, 6rem);
+    height: clamp(25rem, -2.7778rem + 44.4444vw, 35rem);
+    padding-top: clamp(1rem, -8.1111rem + 17.7778vw, 7rem);
+  }
+  .bgimgkarnavati {
+    display: none;
+  }
+  .herobg {
+    background: url("/public/images/heroimg.png");
+    background-size: 100% 100%;
+  }
+  .welcome {
+    font-size: clamp(1rem, 0.2407rem + 1.4815vw, 1.5rem);
+    color: #fff;
+  }
+  .shopname {
+    font-size: clamp(4rem, 2.4815rem + 2.963vw, 5rem);
+    color: #fbbc04;
+  }
+  .spansurat {
+    color: #fff;
+  }
+  .tagline {
+    font-size: clamp(2rem, 0.4815rem + 2.963vw, 3rem);
+    width: clamp(31.25rem, 12.2685rem + 37.037vw, 43.75rem);
+    color: #fff;
+  }
+  .expolremenubtn {
+    font-size: clamp(1.5rem, 1.5949rem + -0.1852vw, 1.4375rem);
+  }
+  .expolremenubtn:hover {
+    color: #fbbc04;
+    background-color: #fff;
+  }
+}

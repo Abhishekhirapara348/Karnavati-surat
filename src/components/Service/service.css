@@ -1,0 +1,131 @@
+.servicecontainer {
+  max-width: 100%;
+  padding-inline: clamp(1rem, -7.6643rem + 46.2094vw, 17rem);
+}
+.servicearea {
+  width: 100%;
+  height: clamp(6rem, -6.7241rem + 24.8276vw, 15rem);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.servicecardtitle {
+  font-size: clamp(1.5rem, 0.6877rem + 4.3321vw, 3rem);
+  font-family: "fjalla one", sans-serif;
+  color: #00671d;
+  font-weight: 250;
+  border-bottom: 0.2rem solid #00671d;
+}
+.servicecards {
+  max-width: 100%;
+  gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-block: 3rem;
+}
+.servicecard {
+  /* border: 0.1rem solid #000; */
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-inline: 1rem;
+  padding-block: 0rem;
+  border-radius: 0.5rem;
+  box-shadow: 2px 3px 8px -4px rgba(0, 0, 0, 1);
+}
+.half1scard {
+  height: 30%;
+  /* background-color: #00671d; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.half2scard {
+  height: 50%;
+}
+.icon1service {
+  width: clamp(9rem, 7.917rem + 5.7762vw, 11rem);
+}
+.icon2service {
+  width: clamp(7rem, 5.3755rem + 8.6643vw, 10rem);
+}
+.servicetitle {
+  font-size: clamp(2rem, 1.7292rem + 1.444vw, 2.5rem);
+  font-family: "fjalla one", sans-serif;
+  font-weight: 200;
+  line-height: 50%;
+  color: #00671d;
+}
+.servicediscription {
+  font-size: clamp(1.2rem, 1.0375rem + 0.8664vw, 1.5rem);
+  font-family: "inter", sans-serif;
+  font-weight: 200;
+}
+.ordernowbtn {
+  margin-top: -2rem;
+}
+
+@media only screen and (min-width: 855px) {
+  .servicearea {
+    width: 100%;
+    height: clamp(6rem, -6.7241rem + 24.8276vw, 15rem);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .servicecardtitle {
+    font-size: clamp(1.5rem, 0.6877rem + 4.3321vw, 3rem);
+    font-family: "fjalla one", sans-serif;
+    color: #00671d;
+    font-weight: 250;
+    border-bottom: 0.2rem solid #00671d;
+  }
+  .servicecards {
+    max-width: 100%;
+
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-block: 3rem;
+  }
+  .servicecontainer {
+    max-width: 100%;
+    padding-inline: 5rem;
+  }
+  .icon1service {
+    width: 8rem;
+  }
+  .icon2service {
+    width: 7rem;
+  }
+  .servicetitle {
+    font-size: clamp(1.5rem, 0.6561rem + 1.581vw, 2rem);
+    font-family: "fjalla one", sans-serif;
+    font-weight: 200;
+    line-height: 50%;
+    color: #00671d;
+  }
+  .servicediscription {
+    font-size: clamp(1rem, 0.6625rem + 0.6324vw, 1.2rem);
+    font-family: "inter", sans-serif;
+    font-weight: 200;
+  }
+  .servicecard {
+    box-shadow: 2px 3px 8px -4px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-inline: clamp(1rem, -4.0792rem + 9.505vw, 4rem);
+    padding-block: clamp(1rem, 0.1561rem + 1.581vw, 1.5rem);
+    border-radius: 0.5rem;
+  }
+}

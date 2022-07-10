@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+::-webkit-scrollbar {
+  background-color: #00671d;
+  width: 0.4vw;
+}
+
+::-webkit-slider-thumb {
+  background-color: #fbbc04;
+}

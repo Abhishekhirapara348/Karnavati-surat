@@ -1,0 +1,132 @@
+.beveragecontainer {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 1rem;
+  margin-block: 3rem;
+  padding-inline: clamp(1rem, -2.0151rem + 16.0804vw, 3rem);
+}
+.beveragecard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: clamp(0.5rem, -0.2538rem + 4.0201vw, 1rem);
+  border-radius: 0.5rem;
+  border: 0.1rem solid #a7a7a7;
+}
+.half1bev {
+  width: 40%;
+}
+.half2bev {
+  width: 50%;
+}
+.drinkname {
+  font-size: clamp(1.5rem, 0.7462rem + 4.0201vw, 2rem);
+  font-family: "fjalla one", sans-serif;
+  color: #00671d;
+  font-weight: 200;
+  line-height: 150%;
+  text-align: left;
+  margin-bottom: 0%;
+}
+.drinkname2 {
+  /* font-size: clamp(2rem, 0.7462rem + 4.0201vw, 3rem); */
+  font-size: clamp(2rem, 1.717rem + 1.5094vw, 3rem);
+  font-family: "fjalla one", sans-serif;
+  color: #00671d;
+  font-weight: 200;
+  line-height: 150%;
+  text-align: left;
+  margin-bottom: 0%;
+}
+
+.card1name {
+  color: #fb8904;
+}
+
+.card2name {
+  color: #ffc532;
+}
+.card3name {
+  color: #b63202;
+}
+.card4name {
+  color: #5ae162;
+}
+.card5name {
+  color: #fb3136;
+}
+.card6name {
+  color: #1867d3;
+}
+.colddrinkimg {
+  max-width: 80%;
+}
+.pricetag {
+  background-color: #00671d;
+  height: clamp(2rem, 0.4925rem + 8.0402vw, 3rem);
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 0.5rem;
+  font-size: clamp(1rem, 0.2462rem + 4.0201vw, 1.5rem);
+  color: white;
+  font-family: "fjalla one", sans-serif;
+  font-weight: 200;
+  border-radius: clamp(0.2rem, 0.0492rem + 0.804vw, 0.3rem);
+}
+
+@media only screen and (min-width: 500px) and (max-width: 984px) {
+  .beveragecontainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding-inline: 0rem;
+    gap: 2rem;
+  }
+  .drinkname {
+    font-size: clamp(1.5rem, 0.4669rem + 3.3058vw, 2.5rem);
+  }
+  .beveragecard {
+    padding: 1rem;
+    border-radius: clamp(0.3rem, 0.0934rem + 0.6612vw, 0.5rem);
+  }
+  .pricetag {
+    height: clamp(2rem, 0.9669rem + 3.3058vw, 3rem);
+    margin-block: clamp(0.5rem, -0.0165rem + 1.6529vw, 1rem);
+    font-size: clamp(1.2rem, 0.7868rem + 1.3223vw, 1.6rem);
+    font-weight: 200;
+    border-radius: 0.3rem;
+  }
+  .colddrinkimg {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 985px) {
+  .beveragecontainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+    margin-block: 3rem;
+    padding-inline: clamp(0rem, -9.3158rem + 16.8421vw, 5rem);
+  }
+  .drinkname {
+    font-size: clamp(2.1875rem, 0.6737rem + 2.7368vw, 3rem);
+  }
+  .beveragecard {
+    padding: 0.5rem;
+    border-radius: clamp(0.3rem, 0.0934rem + 0.6612vw, 0.5rem);
+  }
+  .pricetag {
+    height: clamp(2rem, 0.9669rem + 3.3058vw, 3rem);
+    margin-block: clamp(0.5rem, -0.0165rem + 1.6529vw, 1rem);
+    font-size: clamp(1.2rem, 0.7868rem + 1.3223vw, 1.6rem);
+    font-weight: 200;
+    border-radius: 0.3rem;
+  }
+  .colddrinkimg {
+    max-width: 100%;
+  }
+}

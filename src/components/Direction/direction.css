@@ -1,0 +1,46 @@
+.mapconatiner {
+  margin-block: 10rem;
+}
+.mapholder {
+  max-width: 100%;
+  height: 100vh;
+  padding-inline: 5rem;
+}
+.maparea {
+  max-width: 100%;
+  height: clamp(6rem, -6.7241rem + 24.8276vw, 15rem);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-block: 2rem;
+}
+.maptitle {
+  min-width: 30%;
+  font-size: clamp(4rem, 1.1724rem + 5.5172vw, 6rem);
+  font-family: "fjalla one", sans-serif;
+  color: #00671d;
+  font-weight: 250;
+  border-bottom: 0.3rem solid #00671d;
+}
+.map {
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 854px) {
+  .maparea {
+    height: 3rem;
+    margin-block: 3rem;
+  }
+  .maptitle {
+    min-width: 30%;
+    font-size: clamp(1.5rem, 0.6877rem + 4.3321vw, 3rem);
+    border-bottom: 0.3rem solid #00671d;
+  }
+  .mapholder {
+    max-width: 100%;
+    height: 30rem;
+    padding-inline: 1rem;
+  }
+}

@@ -1,0 +1,116 @@
+.header {
+  padding-inline: 20px;
+  text-align: center;
+  height: 3rem;
+}
+.burgerbtn {
+  position: absolute;
+}
+.menu-icon {
+  width: 2rem;
+  height: 2rem;
+  text-decoration: none;
+  list-style: none;
+  color: #00671d;
+}
+.headerarea {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heder-logo {
+  min-width: 70%;
+}
+.ullist {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+.tab {
+  text-decoration: none;
+  color: #000;
+  font-size: 2rem;
+  font-family: "fjalla one", sans-serif;
+}
+.halfheader2 {
+  display: none;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+  .header {
+    padding-inline: 1rem;
+    padding-block: 1rem;
+    align-items: center;
+    /* background-color: beige; */
+  }
+  .halfheader2 {
+    display: none;
+  }
+  .heder-logo {
+    /* width: clamp(7rem, 6.7361rem + 4.2216vw, 8rem); */
+    width: clamp(6rem, 2.648rem + 17.8771vw, 8rem);
+  }
+  .menu-icon {
+    width: clamp(1.5rem, 0.662rem + 4.4693vw, 2rem);
+    height: clamp(1.5rem, 0.662rem + 4.4693vw, 2rem);
+    /* background-color: aqua; */
+    margin-top: 0.6rem;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 984px) {
+  .halfheader2 {
+    display: none;
+  }
+  .header {
+    padding-inline: clamp(1rem, -2.8095rem + 12.6984vw, 5rem);
+    padding-block: clamp(1rem, 0.0476rem + 3.1746vw, 2rem);
+    align-items: center;
+    /* background-color: beige; */
+  }
+
+  .heder-logo {
+    /* width: clamp(7rem, 6.7361rem + 4.2216vw, 8rem); */
+    width: clamp(8rem, 5.1429rem + 9.5238vw, 11rem);
+  }
+  .menu-icon {
+    width: clamp(2rem, 1.5238rem + 1.5873vw, 2.5rem);
+    height: clamp(2rem, 1.5238rem + 1.5873vw, 2.5rem);
+    /* background-color: aqua; */
+    margin-top: clamp(0.6rem, 0.219rem + 1.2698vw, 1rem);
+  }
+}
+
+@media only screen and (min-width: 984px) {
+  .header {
+    padding-inline: 5rem;
+    padding-bottom: clamp(1rem, -0.8571rem + 3.3613vw, 2rem);
+    /* padding-block: 1rem; */
+  }
+  .burgerbtn {
+    display: none;
+  }
+  .halfheader2 {
+    display: block;
+    margin-top: 1rem;
+  }
+  .headerarea {
+    justify-content: space-between;
+  }
+  .ullist {
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+  }
+  .tab {
+    font-size: clamp(1.3rem, 0.7429rem + 1.0084vw, 1.6rem);
+  }
+  .heder-logo {
+    width: clamp(7rem, 3.2857rem + 6.7227vw, 9rem);
+  }
+  .halfheader {
+    /* background-color: aqua; */
+    display: flex;
+  }
+}

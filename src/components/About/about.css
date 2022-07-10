@@ -1,0 +1,395 @@
+.aboutcontainer {
+  padding-inline: 2rem;
+  margin-block: 4rem;
+}
+.aboutsection {
+  margin-block: 3rem;
+  gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+.cardcontainer1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.cardcontainer2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.about {
+  width: 100%;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.titleabout {
+  width: 40%;
+  font-size: 2.5rem;
+  font-family: "fjalla one", sans-serif;
+  color: #00671d;
+  font-weight: 250;
+  border-bottom: 0.3rem solid #00671d;
+}
+
+/*  all the cards #############################################################################*/
+.card1 {
+  max-width: 100%;
+  background-color: #ae4901;
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+  object-fit: contain;
+}
+.card2 {
+  max-width: 100%;
+  background-color: #3c542c;
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+}
+.card3 {
+  max-width: 100%;
+  background-color: #360832;
+  align-items: center;
+  padding: 1rem 1rem;
+  border-radius: 0.5rem;
+}
+.card4 {
+  max-width: 100%;
+  background-color: #01242c;
+  align-items: center;
+  padding: 1.5rem 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* cards end ###############################################################################*/
+
+/* card first half  ##########################################################################*/
+.half1 {
+  width: 50%;
+}
+.half2 {
+  width: 50%;
+}
+.card2half1 {
+  width: 60%;
+}
+.card2half2 {
+  width: 40%;
+}
+.card3half1 {
+  width: 100%;
+}
+.card3half2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.card4half1 {
+  width: 25%;
+}
+.card4half2 {
+  width: 55%;
+  float: right;
+}
+/*  card first half end #################################################################### */
+
+/*  card title text ###########################################################################   */
+.info {
+  /* font-size: clamp(1.5rem, 7vw, 20rem); */
+  /* font-size: clamp(1.8125rem, 0.125rem + 6.75vw, 3.5rem); */
+  font-size: clamp(1.6875rem, -0.125rem + 7.25vw, 3.5rem);
+  font-family: "inter", sans-serif;
+  text-align: left;
+  color: #fff;
+  font-family: "fjalla one", sans-serif;
+  font-weight: 200;
+  margin: 0%;
+  line-height: 150%;
+}
+
+.infocard4 {
+  /* font-size: 1.5rem; */
+  font-size: clamp(1rem + 2vw, 3vw + 2.5vw, 20rem);
+  font-family: "inter", sans-serif;
+  text-align: left;
+  color: #fff;
+  font-family: "fjalla one", sans-serif;
+  font-weight: 200;
+  margin: 0%;
+  line-height: 150%;
+}
+.card4para {
+  font-size: clamp(0.5rem + 1vw, 3vw + 0.5vw, 20rem);
+  font-family: "inter", sans-serif;
+  text-align: left;
+  color: #fff;
+  font-weight: 200;
+  margin: 0%;
+  line-height: 150%;
+}
+.star {
+  width: clamp(1.5rem, -1rem + 10vw, 4rem);
+  height: clamp(1.5rem, -1rem + 10vw, 4rem);
+  color: #fbbc04;
+  float: left;
+  margin-top: 1rem;
+}
+/*  card title text end ###########################################################################   */
+
+/* card btn  #########################################################################*/
+.directionbtn {
+  float: left;
+  padding-block: clamp(0.4rem, 0.175rem + 0.9vw, 0.625rem);
+  padding-inline: 1rem;
+  font-size: clamp(1rem, 0rem + 4vw, 2rem);
+  font-size: clamp(1.2375rem, 0.1rem + 4.25vw, 2.3rem);
+  font-family: "fjalla one", sans-serif;
+  background-color: #ffe900;
+  border-radius: 0.2rem;
+  border: none;
+  margin-top: 1rem;
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+}
+.cardmenubtn {
+  float: left;
+  padding: 0.3rem 1rem;
+  font-size: clamp(1rem, 4vw, 20rem);
+  font-family: "fjalla one", sans-serif;
+  background-color: #63dd04;
+  color: #000;
+  border-radius: 0.2rem;
+  border: none;
+  margin-top: 1rem;
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+}
+.reviewbtn {
+  padding: 0.5rem 1rem;
+  font-size: clamp(1rem, 4vw, 20rem);
+  font-family: "fjalla one", sans-serif;
+  background-color: #ff0458;
+  color: #fff;
+  border-radius: 0.2rem;
+  border: none;
+  margin: 0%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.reviewsection {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1.375rem, -0.75rem + 8.5vw, 3.5rem);
+  width: 60%;
+}
+.imgsize {
+  width: 40%;
+}
+/* .reviewbtnarea {
+  max-width: 60%;
+} */
+/* card btn  end #########################################################################*/
+
+/* card img #########################################################################*/
+.cardimg {
+  width: calc(90% + 1vw);
+  filter: drop-shadow(5px 5px 34px #fbbc04);
+}
+.cardimg2 {
+  width: calc(90% + 1vw);
+  filter: drop-shadow(5px 5px 34px #63dd04);
+}
+
+.cardimg3 {
+  width: clamp(50% + 1vw, 40% + 0.1vw, 60%);
+  margin-top: -2rem;
+}
+
+.cardimg4 {
+  width: calc(100% + 1.5rem);
+  filter: drop-shadow(5px 5px 24px #056783);
+}
+
+/* card img end  #########################################################################*/
+
+@media only screen and (min-width: 100px) and (max-width: 479px) {
+  .info {
+    font-size: clamp(1.26rem, 0.0198rem + 6.6145vw, 2rem);
+  }
+  .infocard4 {
+    font-size: clamp(1rem, -0.3408rem + 7.1508vw, 1.8rem);
+  }
+  .card4para {
+    font-size: clamp(0.4rem, -0.6056rem + 5.3631vw, 1rem);
+  }
+  .directionbtn {
+    padding-block: clamp(0.2rem, -0.3028rem + 2.6816vw, 0.5rem);
+    padding-inline: clamp(0.5rem, -0.338rem + 4.4693vw, 1rem);
+    font-size: clamp(0.7rem, -0.138rem + 4.4693vw, 1.2rem);
+  }
+  .cardmenubtn {
+    padding-block: clamp(0.2rem, -0.3028rem + 2.6816vw, 0.5rem);
+    padding-inline: clamp(0.5rem, -0.338rem + 4.4693vw, 1rem);
+    font-size: clamp(0.7rem, -0.138rem + 4.4693vw, 1.2rem);
+  }
+  .reviewbtn {
+    padding-block: clamp(0.2rem, -0.3028rem + 2.6816vw, 0.5rem);
+    padding-inline: clamp(0.5rem, -0.338rem + 4.4693vw, 1rem);
+    font-size: clamp(0.7rem, -0.138rem + 4.4693vw, 1.2rem);
+  }
+
+  .star {
+    width: clamp(1rem, -0.676rem + 8.9385vw, 2rem);
+    height: clamp(1rem, -0.676rem + 8.9385vw, 2rem);
+  }
+  .cardimg3 {
+    width: clamp(50% + 1vw, 40% + 0.1vw, 60%);
+    margin-top: -1rem;
+  }
+  .card1 {
+    padding-inline: clamp(0.5rem, -0.338rem + 4.4693vw, 1rem);
+    border-radius: clamp(0.3rem, -0.0352rem + 1.7877vw, 0.5rem);
+  }
+  .card2 {
+    padding-inline: clamp(0.5rem, -0.338rem + 4.4693vw, 1rem);
+    border-radius: clamp(0.3rem, -0.0352rem + 1.7877vw, 0.5rem);
+  }
+  .card3 {
+    padding-inline: clamp(0.5rem, -0.338rem + 4.4693vw, 1rem);
+    border-radius: clamp(0.3rem, -0.0352rem + 1.7877vw, 0.5rem);
+  }
+  .card4 {
+    padding-inline: clamp(0.5rem, -0.338rem + 4.4693vw, 1rem);
+    border-radius: clamp(0.3rem, -0.0352rem + 1.7877vw, 0.5rem);
+  }
+  .reviewsection {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(1rem, 0.162rem + 4.4693vw, 1.5rem);
+    width: 60%;
+  }
+  .about {
+    width: 100%;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .titleabout {
+    width: 40%;
+    font-size: clamp(1.5rem, -0.176rem + 8.9385vw, 2.5rem);
+    font-family: "fjalla one", sans-serif;
+    color: #00671d;
+    font-weight: 250;
+    border-bottom: 0.3rem solid #00671d;
+  }
+}
+
+@media only screen and (min-width: 479px) and (max-width: 820px) {
+  .aboutcontainer {
+    padding-inline: clamp(1rem, -41.1972rem + 90.1408vw, 5rem);
+  }
+  .about {
+    width: 100%;
+    height: clamp(5rem, -4.8618rem + 32.9412vw, 12rem);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .titleabout {
+    width: 40%;
+    font-size: clamp(2.5rem, -0.3176rem + 9.4118vw, 4.5rem);
+    font-family: "fjalla one", sans-serif;
+    color: #00671d;
+    font-weight: 250;
+    border-bottom: 0.3rem solid #00671d;
+  }
+}
+
+@media only screen and (min-width: 818px) {
+  .aboutcontainer {
+    padding-inline: 5rem;
+  }
+  .aboutsection {
+    margin-block: 3rem;
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .about {
+    width: 100%;
+    height: clamp(6rem, -6.7241rem + 24.8276vw, 15rem);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .titleabout {
+    width: 40%;
+    font-size: clamp(4rem, 1.1724rem + 5.5172vw, 6rem);
+    font-family: "fjalla one", sans-serif;
+    color: #00671d;
+    font-weight: 250;
+    border-bottom: 0.3rem solid #00671d;
+  }
+  .info {
+    /* font-size: calc((0.1em + 0.2vmin) + (0.4em + 2vmax)); */
+    /* font-size: clamp(1.2875rem, -0.3018rem + 3.1786vw, 2.4rem); */
+    font-size: clamp(1.2875rem, -0.3911rem + 3.3571vw, 2.4625rem);
+  }
+
+  .infocard4 {
+    font-size: clamp(1.3125rem, -0.2411rem + 3.1071vw, 2.4rem);
+  }
+  .card4para {
+    font-size: clamp(0.875rem, 0.2679rem + 1.2143vw, 1.3rem);
+  }
+
+  /* card btn  #########################################################################*/
+  .directionbtn {
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+    font-size: clamp(1rem, 0.2857rem + 1.4286vw, 1.5rem);
+  }
+  .cardmenubtn {
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+    font-size: clamp(1rem, 0.2857rem + 1.4286vw, 1.5rem);
+  }
+  .reviewbtn {
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
+    font-size: clamp(1rem, 0.2857rem + 1.4286vw, 1.5rem);
+  }
+
+  .star {
+    width: clamp(1.5rem, -0.1071rem + 3.2143vw, 2.625rem);
+    height: clamp(1.5rem, -0.1071rem + 3.2143vw, 2.625rem);
+  }
+  .reviewsection {
+    display: flex;
+    flex-direction: column;
+    gap: clamp(1.375rem, -1.6607rem + 6.0714vw, 3.5rem);
+    width: 60%;
+  }
+  /* .cardimg3 {
+    width: clamp(50% + 1vw, 40% + 0.1vw, 60%);
+    margin-top: -1rem;
+  } */
+}
